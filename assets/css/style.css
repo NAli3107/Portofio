@@ -27,3 +27,50 @@ body {
     margin-left: 25px;
     font-size: 20px; 
 }
+
+.horiseon {
+    height: 350px;
+    width: 500px;
+    float: center;
+
+}
+
+.mini-project1 {
+    height: 159px;
+    width: 318px;
+}
+
+.mini-project2 {
+    height: 159px;
+    width: 318px;
+}
+
+.prework {
+    height: 159px;
+    width: 318px;
+}
+
+.fanpage {
+    height: 159px;
+    width: 318px;
+}
+
+.phone { 
+    height: 50px;
+    width: 50px;
+}
+
+.email { 
+    height: 50px;
+    width: 50px;
+}
+
+.linkedin { 
+    height: 50px;
+    width: 50px;
+}
+
+.github { 
+    height: 50px;
+    width: 50px;
+}
