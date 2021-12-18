@@ -10,6 +10,9 @@ body {
     background: #353535ff;
     position:sticky;
     box-shadow: 2px 2px 12px rgb(84, 182, 187);      
+
+    /*box shadow isnt working for the whole of the header/nav bar*/
+
 }
 .site-nav ul{
     display: flex;
@@ -33,12 +36,77 @@ body {
     box-shadow: rgb(84, 182, 187) 0 0 10px;
     border-radius: 5px;
 }
-.home{
+.greeting{
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-font-size: 2rem;
+font-size: 3rem;
 font-weight: bolder;
 color: rgb(84, 182, 187);
 padding-left: 15px;
 }
 /*media query for min-width of 300px*/
 
+.home-container{
+    position: absolute;
+    left:15%;
+    top:30%;
+    transform: translate(-10%, -20%);
+    /*How to make bottom border go all the way through - can the image be aligned with text*/
+} 
+.home-container p{
+    line-height: 0px;
+    margin: 40px 0px 25px;
+}
+
+.home-container p:nth-child(1){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 22px;
+}
+.home-container p:nth-child(2){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 30px;
+    color: black;
+}
+.home-container p:nth-child(3){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    color:black;
+}
+.avatar{
+    margin-left: 60%;
+    left: 60%;
+}
+
+.about{
+    display: flex;
+    height: 200px;
+    width: 80%;
+    background-color:#3c6e71ff;
+    border-radius: 20px;
+    box-shadow: black 10px 0px 10px 0px;
+    margin-left: 20px;
+}
+.intro{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.intro h2{
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 20px;
+}
+.intro p{
+    font-size: 20px;
+    padding-left: 20px;
+    justify-content: center;
+}
+.intro img{
+    height: 200px;
+    border-radius: 100%;
+    
+
+}
