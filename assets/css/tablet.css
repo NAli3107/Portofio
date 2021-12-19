@@ -2,9 +2,10 @@
 .home-container{
     flex-direction: column;
     right:30px;
-    top: 150px;
+    top: 20%;
 }
 .avatar img{
+    float: right;
     margin-left: 5%;
     margin-top: 5%;
     height: 300px;

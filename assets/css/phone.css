@@ -1,0 +1,11 @@
+.site-nav ul{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.home{
+    flex-wrap: wrap;
+}
+
+.avatar img{
+    display: flex;
+}
