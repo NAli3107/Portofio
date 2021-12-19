@@ -91,8 +91,7 @@ html{
 }
 .intro p{
     display:flex;
-    justify-content: center;
-    font-size: 20px;
+    justify-content:center;
     padding-left: 20px;
 }
 #about-img img{
@@ -107,6 +106,10 @@ html{
     color: black;
     padding: 20px;
 }
+#intro-title{
+    border-right: 5px solid black;
+    height: 220px;
+}
 .headings{
     text-align: center;
     font-size: 30px;
@@ -116,14 +119,17 @@ html{
 }
 .projects-container{
     display:flex;
-    flex-wrap: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     box-sizing: border-box;
 }
 .projects-container img{
+    display: flex;
+    flex-wrap: wrap;
     width:300px;
     height:200px;
     margin:10px;
+    
 }
 .headings{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -137,11 +143,11 @@ html{
     line-height: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.main-image{
+.main-image img{
     display: flex;
-    position: relative;
-    max-width:100px;
-    max-height: 500px;
+    position: center;
+    width:100%;
+    height: 700px;
 }
 .contact{
     display: flex;

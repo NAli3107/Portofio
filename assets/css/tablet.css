@@ -1,0 +1,24 @@
+
+.home-container{
+    flex-direction: column;
+    right:30px;
+    top: 150px;
+}
+.avatar img{
+    margin-left: 5%;
+    margin-top: 5%;
+    height: 300px;
+}
+.about{
+    width:100%;
+}
+.intro p{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 10px;
+}
+#about-img img{
+    height: 200px;
+    margin-left: 3vw;
+    margin-right: 8vw;
+}
