@@ -8,7 +8,7 @@
     float: right;
     margin-left: 5%;
     margin-top: 5%;
-    height: 300px;
+    flex-shrink: 50%;
 }
 .about{
     width:100%;

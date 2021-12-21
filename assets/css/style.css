@@ -40,13 +40,12 @@ html{
     display: flex;
     flex-direction: column;
     background-color: black;
-    height: 440px;
+    height: 300px;
 }
 .home-container{
     position: absolute;
     left:15%;
-    top:30%;
-    transform: translate(-10%, -20%);
+    top:10%;
     
 } 
 .home-container h1{
@@ -63,10 +62,12 @@ html{
     line-height: 30px;
     color:white;
 }
-.avatar{
+.avatar img{
+    flex-wrap: wrap;
     margin-left: 60%;
     margin-top: 2%;
-    left: 60%;
+    height:250px;
+    width: 250px;
 }
 .about{
     display: flex;
@@ -75,6 +76,7 @@ html{
     width: 95%;
     padding: 20px;
     margin-left: 20px;
+    margin-bottom: 20px;
 }
 .intro{
     display: flex;
@@ -96,7 +98,7 @@ html{
     font-size: 20px;
 }
 #about-img img{
-    height: 300px;
+    height: 250px;
     border-radius: 100%;
     margin-left: 3vw;
 }
@@ -154,9 +156,9 @@ html{
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
-    background-color: #353535ff;
+    background-color: black;
     color: white;
-    padding: 20px;
+    padding: 10px;
 }
 .heading-contact{
     text-decoration: underline;
@@ -187,11 +189,11 @@ html{
 #send{
     padding: 10px;
     width: 10%;
-    margin: 40px;
+    margin: 10px;
     border:none;
     outline: none;
 }
 #send:hover{
     cursor: pointer;
-    box-shadow: 0 0 10px white;
+    box-shadow: rgb(84, 182, 187) 0 0 20px;
 }
