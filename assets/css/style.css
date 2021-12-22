@@ -2,6 +2,7 @@ body {
     background-color: white;
     margin: 0rem;
     padding: 0rem;
+    width: 100%;
 }
 html{
     scroll-behavior:smooth;    
@@ -12,12 +13,14 @@ html{
     align-items: center;
     background: #353535ff;
     position:sticky;
-    box-shadow: 2px 2px 12px rgb(84, 182, 187);      
+    box-shadow: 2px 2px 12px rgb(84, 182, 187); 
+    width: 100%;     
 }
 .site-nav ul{
     display: flex;
     list-style: none;
     margin: 20px 0rem;
+    
 }
 .site-nav ul li{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -38,16 +41,14 @@ html{
 }
 #home{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     background-color: black;
     height: 300px;
+    padding: 50px;    
 }
-.home-container{
-    position: absolute;
-    left:15%;
-    top:10%;
-    
-} 
+ 
 .home-container h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -63,19 +64,15 @@ html{
     color:white;
 }
 .avatar img{
-    flex-wrap: wrap;
-    margin-left: 60%;
-    margin-top: 2%;
     height:250px;
     width: 250px;
 }
 .about{
     display: flex;
-    display: column;
+    display: row;
+    flex-wrap: wrap;
     height: 220px;
-    width: 95%;
     padding: 20px;
-    margin-left: 20px;
     margin-bottom: 20px;
 }
 .intro{
@@ -93,19 +90,15 @@ html{
 }
 .intro p{
     display:flex;
+    flex-wrap: wrap;
     justify-content:center;
     padding-left: 20px;
     font-size: 20px;
 }
-#about-img img{
-    height: 250px;
-    border-radius: 100%;
-    margin-left: 3vw;
-}
 #work-section{
     display: flex;
     flex-direction: column;
-    background-color:rgb(192, 190, 190);
+    background-color:rgb(216, 214, 214);
     color: black;
     padding: 20px;
 }
@@ -196,4 +189,28 @@ html{
 #send:hover{
     cursor: pointer;
     box-shadow: rgb(84, 182, 187) 0 0 20px;
+}
+
+@media screen and (max-width:760px) {
+.site-nav ul{
+    flex-direction: column;
+    align-items: center;
+}
+#home{
+    flex-direction: row;
+    height: 400px; 
+}
+.avatar img{
+    height:150px;
+    width: 150px;
+}
+.about{
+    flex-wrap: wrap;
+    height: auto;
+    
+    
+}
+#intro-title{
+    height: auto;
+}
 }
